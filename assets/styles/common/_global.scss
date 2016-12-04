@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'emoji';
+	src:url('./fonts/emoji.eot');
+	src:url('./fonts/emoji.eot?#iefix-td2xif') format('embedded-opentype'),
+		url('./fonts/emoji.woff') format('woff'),
+		url('./fonts/emoji.ttf') format('truetype'),
+		url('./fonts/emoji.svg?-td2xif#emoji') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font-family: $font, serif;
+}
+
+body a{
+  color: black;
+}
+
+body a:hover{
+  color: black;
+  cursor:pointer;
+}
+
+.wrap.container {
+	margin-bottom: 50px;
+}
+
+.entry-title {
+	color: $text-color;
+}

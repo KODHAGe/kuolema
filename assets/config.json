@@ -1,0 +1,19 @@
+{
+  "entry": {
+    "main": [
+      "./scripts/main.js",
+      "./styles/main.scss"
+    ],
+    "customizer": [
+      "./scripts/customizer.js"
+    ]
+  },
+  "watch": [
+    "templates/**/*.php",
+    "src/**/*.php"
+  ],
+  "publicPath": "/wp/bedrock/web/app/themes/kuolema",
+  "devUrl": "http://xn--kkriinen-0zad.fi/wp/bedrock/web/",
+  "proxyUrl": "http://localhost:3005",
+  "cacheBusting": "[name]_[hash:8]"
+}

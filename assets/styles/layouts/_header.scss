@@ -1,0 +1,26 @@
+.banner .nav li {
+  @extend .nav-item;
+}
+.banner .nav a {
+  @extend .nav-link;
+}
+
+.brand {
+  //text-align: center;
+  font-family: $header-font, serif;
+  font-size: 14vw;
+  color: #1f2021;
+  //display: block;
+}
+
+.brand:hover {
+  text-decoration:none;
+  color: $text-color;
+}
+
+.tagline {
+  margin-top:-30px;
+  margin-bottom:30px;
+  display: block;
+  //text-align: center;
+}

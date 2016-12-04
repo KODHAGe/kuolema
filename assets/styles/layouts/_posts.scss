@@ -1,0 +1,53 @@
+.single .entry-title {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: $header-font;
+  font-size: 8vw;
+}
+
+.single h4 {
+  font-family: $header-font;
+
+}
+
+.single h3 {
+  font-family: $header-font;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.single article {
+  font-size: 1.4em;
+  background-color: white;
+  padding: 20px;
+  border: 5px solid black;
+  text-align:left;
+}
+
+article header ul.post-meta {
+  text-align: center;
+  list-style: none;
+  -webkit-padding-start: 0px;
+}
+
+article header span.post-meta-key{
+  display: none;
+}
+
+.alignnone {
+  position: fixed;
+  z-index: -1;
+  top: 50px;
+  right: 0;
+  width: 100%;
+}
+
+.aligncenter {
+  max-width: 100%;
+  height:auto;
+}
+
+.aligncenter img{
+  max-width: 100%;
+  height:auto;
+}
